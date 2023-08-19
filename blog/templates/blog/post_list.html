@@ -7,19 +7,12 @@
         <header>
             <h1><a href="/">Blog do João</a></h1>
         </header>
-
+        {% for post in posts %}
         <article>
-            <time>Publicado: 19/08/2023</time>
-            <h2><a href="">Primeiro Post</a></h2>
-            <p>Olá, meu nome é João, sou aspirante a programador e no momento estou estudando desenvolvimento web.<br>
-                Bem vindo ao meu simples projeto de blog.
-            </p>
+            <time>publicação: {{ post.publicação}}</time>
+            <h2><a href="">{{ post.titulo}}</a></h2>
+            <p> {{ post.texto }}</p>
         </article>
-
-        <article>
-            <time>Publicado: 19/08/2023</time>
-            <h2><a href="">Segungo Post</a></h2>
-            <p>Teste segundo post.</p>
-        </article>
+        {% endfor %}
     </body>
 </html>
