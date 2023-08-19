@@ -1,0 +1,46 @@
+time {
+    color:rgb(104, 23, 181)
+}
+.page-header {
+    background-color:#027377;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding: 20px 20px 20px 40px;
+}
+
+.page-header h1,
+.page-header h1 a,
+.page-header h1 a:visited,
+.page-header h1 a:active {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: overline;
+}
+
+.container {
+    text-align: center;
+}
+
+.texto {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.posts h2, div {
+    margin-top: 40px;
+}
+.posts {
+    font-family: 'Montserrat', cursive;
+    margin-left: 50px;
+
+}
+
+.posts h2 a{
+    color: black;
+    text-decoration: none;
+}
+
+.data {
+    color: #027377;
+}
