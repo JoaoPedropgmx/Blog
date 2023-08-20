@@ -1,5 +1,5 @@
 .page-header {
-    background-color: #C25100;
+    background-color: #073556;
     margin-top: 0;
     margin-bottom: 40px;
     padding: 20px 20px 20px 40px;
@@ -18,11 +18,12 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'italic';
 }
 
 .date {
-    color: #828282;
+    color: #073556;
+    padding-right: 50px;
 }
 
 .save {
@@ -59,14 +60,14 @@ h4 {
 
 .btn-secondary,
 .btn-secondary:visited {
-    color: #C25100;
+    color: #073556;
     background: none;
-    border-color: #C25100;
+    border-color: #073556;
 }
 
 .btn-secondary:hover {
     color: #FFFFFF;
-    background-color: #C25100;
+    background-color: #073556;
 }
 
 .descricao {
@@ -75,4 +76,11 @@ h4 {
     display: -webkit-box;
     -webkit-line-clamp: 2; /* quantidade de linhas */
     -webkit-box-orient: vertical;
+}
+.top-menu {
+    size: 50px;
+}
+
+h4 {
+    font-size: 15px;
 }
