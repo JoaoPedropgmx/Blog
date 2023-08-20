@@ -1,8 +1,5 @@
-time {
-    color:rgb(104, 23, 181)
-}
 .page-header {
-    background-color:#027377;
+    background-color: #C25100;
     margin-top: 0;
     margin-bottom: 40px;
     padding: 20px 20px 20px 40px;
@@ -14,33 +11,68 @@ time {
 .page-header h1 a:active {
     color: #ffffff;
     font-size: 36pt;
-    text-decoration: overline;
-}
-
-.container {
-    text-align: center;
-}
-
-.texto {
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-    margin-left: 50px;
-}
-
-.posts h2, div {
-    margin-top: 40px;
-}
-.posts {
-    font-family: 'Montserrat', cursive;
-    margin-left: 50px;
-
-}
-
-.posts h2 a{
-    color: black;
     text-decoration: none;
 }
 
-.data {
-    color: #027377;
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Lobster', cursive;
+}
+
+.date {
+    color: #828282;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea,
+.post-form input {
+    width: 100%;
+}
+
+.top-menu,
+.top-menu:hover,
+.top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.post {
+    margin-bottom: 70px;
+}
+
+.post h2 a,
+.post h2 a:visited {
+    color: #000000;
+}
+
+.post > .date,
+.post > .actions {
+    float: right;
+}
+
+.btn-secondary,
+.btn-secondary:visited {
+    color: #C25100;
+    background: none;
+    border-color: #C25100;
+}
+
+.btn-secondary:hover {
+    color: #FFFFFF;
+    background-color: #C25100;
+}
+
+.descricao {
+    overflow: hidden; /* remove o estouro do elemento */
+    text-overflow: ellipsis; /* adiciona “...” no final */
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* quantidade de linhas */
+    -webkit-box-orient: vertical;
 }
